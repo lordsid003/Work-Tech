@@ -1,0 +1,12 @@
+<div class="jobs border-bottom">               
+    <div class="job-form">
+        <div class="job-title post"><span class="span-job">Position:</span> {{ job['title'] }}</div>
+        <div class="job-location"><span class="span-job">Location:</span> {{ job['location'] }}</div>
+        {% if 'salary' in job %}
+        <div class="salary"><span class="span-job">Salary:</span> {{ job['salary'] }}</div>
+        {% endif %}
+    </div>
+    <div class="apply-btn">
+        <button class="btn btn-outline-primary">Apply Now</button>
+    </div>
+</div>

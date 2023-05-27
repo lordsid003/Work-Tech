@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+* {
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.carousel-item img {
+    height: 110vh;
+    width: 100vw;
+    opacity: 0.8;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background: black;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    line-height: 2rem;
+    width: 100vw;
+}
+
+#navbar .title a {
+    left: 0;
+    margin-left: 2rem;
+    color: #a8a6a6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#navbar .title a:hover {
+    color: orange;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.list ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list ul a:hover {
+    color: #ffc101;
+}
+
+.btn-warning {
+    width: 8rem;
+    font-weight: bold;
+}
+
+.carousel-caption h3 {
+    font-weight: bold;
+    color: #000;
+}
+
+.carousel-caption p {
+    color: whitesmoke;
+}
+
+.about-img img {
+    width: 600px;
+    height: auto;
+}
+
+.about-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 90vw;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 193, 1, 0.8);
+    padding: 2rem;
+}
+
+#about-content {
+    color: #fff;
+}
+
+#about-title {
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.apply-title {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.jobs .job-title {
+    margin-top: 1rem;
+}
+
+.jobs {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.apply-btn {
+    position: absolute;
+    right: 0;
+    margin-right: 5rem;
+}
+
+.span-job {
+    color: blue;
+}
+
+.post  {
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+}
+
+#contact {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+#contact .contact-title h1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#footer {
+    background-color: #ffc101;
+    padding: 3rem 5rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    gap: 5rem;
+    color: #000;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+.help, .social, .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help ul, .social ul, .info ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
